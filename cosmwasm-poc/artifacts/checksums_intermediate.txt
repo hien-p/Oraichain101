@@ -1,0 +1,1 @@
+6ff163b8df66b0c11de87fdc9560e60c9546328c186ef5ddc4132dda4aaaffee  ./target/wasm32-unknown-unknown/release/cosmwasm_poc.wasm

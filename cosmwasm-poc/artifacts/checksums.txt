@@ -1,0 +1,1 @@
+4593d8cd88afb8a4645dcc03b4781cb30cea2b5535f28727c37cb5e25126e7b4  cosmwasm_poc.wasm
