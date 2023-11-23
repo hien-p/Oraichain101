@@ -1,4 +1,7 @@
-# Install Oraicli 
+
+# Cách để chạy contract trên Oraichain
+
+## Install Oraicli 
 Để tương tác với oraichain thì bạn cần cài đặt CLI:
 ```
 git clone https://github.com/oraichain/oraicli.git
@@ -36,10 +39,16 @@ Sau khi hoàn thành xong hãy chạy thử lệnh nhé
 ```
 	yarn oraicli wasm
 ```
+
+![image](images/Pasted%20image%2020231123163756.png)
+
 ![[Pasted image 20231123163756.png]]
 
 
-# Deloy smart contract 
+
+
+
+## Deloy smart contract 
 Tạo một terminal mới
 tải source có sẵn này đi nhé: 
 ```

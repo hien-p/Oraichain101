@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cách để chạy contract trên Oraichain.md",
+                "file": "readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cách để chạy contract trên Oraichain.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cách để chạy contract trên Oraichain.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cách để chạy contract trên Oraichain.md"
+                "file": "readme.md"
               }
             }
           }
@@ -147,5 +147,10 @@
     }
   },
   "active": "2091aad20586e721",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Cách để chạy contract trên Oraichain.md",
+    "images/Pasted image 20231123172608.png",
+    "images/Pasted image 20231123163756.png",
+    "readme.md"
+  ]
 }
