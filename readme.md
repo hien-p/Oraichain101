@@ -37,14 +37,10 @@ PREFIX=orai
 
 Sau khi hoàn thành xong hãy chạy thử lệnh nhé 
 ```
-	yarn oraicli wasm
+yarn oraicli wasm
 ```
 
 ![image](images/Pasted%20image%2020231123163756.png)
-
-![[Pasted image 20231123163756.png]]
-
-
 
 
 
@@ -67,7 +63,10 @@ Tham khảo từ đây nhé:
 https://github.com/CosmWasm/rust-optimizer
 ```
 Kết quả mà chạy ra được như dưới đây là Ok: 
-![[Pasted image 20231123165439.png]]
+
+![image](images/Pasted%20image%2020231123165439.png)
+
+
 
 Sau đó cd vào folder artifacts/ sẽ thấy tên file.wasm. Trong trường hợp này thì tên là cosmwasm_poc.wasm. 
 
@@ -82,7 +81,7 @@ Ví dụ trong trường hợp này của mình sẽ là:
 media/hienpy/data/dev/oraichain/dapps/cosmwasm_poc/cosmwasm-
 poc/artifacts/cosmwasm_poc.wasm
 ```
-![[Pasted image 20231123165743.png]]
+![image](images/Pasted%20image%2020231123165743.png)
 
 Sau khi chạy bạn sẽ thấy một code -id. Của mình là 6471 
 bạn có thể chạy lệnh này của mình dựa trên code -id hoặc lấy code-id mà bạn vừa có đều được 
@@ -90,7 +89,8 @@ bạn có thể chạy lệnh này của mình dựa trên code -id hoặc lấy
 yarn oraicli wasm instantiate --code-id 6471 --input '{"count": 11}' --label
 "voting"
 ```
-![[Pasted image 20231123165922.png]]
+![image](images/Pasted%20image%2020231123165922.png)
+
 
 Kết quả là ta sẽ được một address giống như này:
 ```
@@ -105,8 +105,7 @@ yarn oraicli wasm query
 orai17mq0sg6ey9u2c5pwjjn8l6sppacrrzfucx5r97pcn25d6mjuax2qza6jar --input
 '{"get_count": {}}'
 ```
-
-![[Pasted image 20231123172117.png]]
+![image](images/Pasted%20image%2020231123172117.png)
 
 Ngược lại có thể chạy lệnh này để execute:
 ```
@@ -116,7 +115,7 @@ orai17mq0sg6ey9u2c5pwjjn8l6sppacrrzfucx5r97pcn25d6mjuax2qza6jar --input
 ```
 
 Và kết quả: 
-![[Pasted image 20231123172310.png]]
+![image](images/Pasted%20image%2020231123172310.png)
 
 Tuy nhiên nếu bạn lười gõ lệnh CLI giống như mình thì hãy chạy Cosmwasm IDE và truyền args y hệt như trên. 
 Nguồn để cài đặt đây nhé:
@@ -126,11 +125,12 @@ https://docs.orai.io/developers/cosmwasm-ide
 
 Mình lấy ví dụ cho việc chạy Query: 
 
-![[Pasted image 20231123172608.png]]
+![image](images/Pasted%20image%2020231123172608.png)
+
 
 Trong bài viết tiếp theo  mình đang nghiên cứu tiếp về:
 - [ ] Cách dùng AI service của oracles lên on chain sẽ như thế nào thông qua CLI tools
 * [ ] Cách tạo một Fungible Token (cw20 ) trên oraichain
 * [ ] Swap token đó với native token(đang chưa biết như thế nào mấy ní ơi :V )
-Ngoài ra bạn không nhất thiết phải dùng Oraicli. Oraichain cũng vừa build một tools khá xịn là [Cosmwasm-tools](https://github.com/oraichain/cosmwasm-tools) . Cho phép bạn build contract và tương tác luôn mà không cần lòng vòng giống mình. Hi vọng mình sẽ có nhiều thời gian hơn để viết về cái này =))). 
+Ngoài ra bạn không nhất thiết phải dùng Oraicli. Oraichain cũng vừa build một tools khá xịn là [Cosmwasm-tools](https://github.com/oraichain/cosmwasm-tools) . Cho phép bạn build contract và tương tác luôn mà không cần lòng vòng giống mình. Hi vọng mình sẽ có nhiều thời gian hơn để viết về cái này. 
 
