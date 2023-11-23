@@ -1,5 +1,5 @@
 
-# Cách để chạy contract trên Oraichain
+# Cách để chạy smart contract trên Oraichain
 
 ## Install Oraicli 
 Để tương tác với oraichain thì bạn cần cài đặt CLI:
