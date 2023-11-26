@@ -129,6 +129,7 @@ Mình lấy ví dụ cho việc chạy Query:
 
 
 Trong bài viết tiếp theo  mình đang nghiên cứu tiếp về:
+- [x] Viết về cw-simulate của Oraichain [Link](https://github.com/hien-p/backend-cw-stimulate)
 - [ ] Cách dùng AI service của oracles lên on chain sẽ như thế nào thông qua CLI tools
 * [ ] Cách tạo một Fungible Token (cw20 ) trên oraichain
 * [ ] Swap token đó với native token(đang chưa biết như thế nào mấy ní ơi :V )
