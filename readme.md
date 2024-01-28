@@ -130,8 +130,7 @@ Mình lấy ví dụ cho việc chạy Query:
 
 Trong bài viết tiếp theo  mình đang nghiên cứu tiếp về:
 - [x] Viết về cw-simulate của Oraichain [Link](https://github.com/hien-p/backend-cw-stimulate)
-- [ ] Cách dùng AI service của oracles lên on chain sẽ như thế nào thông qua CLI tools
-* [ ] Cách tạo một Fungible Token (cw20 ) trên oraichain
-* [ ] Swap token đó với native token(đang chưa biết như thế nào mấy ní ơi :V )
-Ngoài ra bạn không nhất thiết phải dùng Oraicli. Oraichain cũng vừa build một tools khá xịn là [Cosmwasm-tools](https://github.com/oraichain/cosmwasm-tools) . Cho phép bạn build contract và tương tác luôn mà không cần lòng vòng giống mình. Hi vọng mình sẽ có nhiều thời gian hơn để viết về cái này. 
+* [x] Cách tạo một Fungible Token (cw20 ) trên oraichain
+* [ ] Swap token đó với native token(Tùng lee viết giùm nha)
+* [ ]  Ngoài ra bạn không nhất thiết phải dùng Oraicli. Oraichain cũng vừa build một tools khá xịn là cwtools(sẽ viết sau)
 
